@@ -108,7 +108,7 @@ class _ErrorPageState extends State<ErrorPage> {
 
 ''');
 
-  File('lib/src/utils/constants/routes.dart').writeAsStringSync('''
+  File('lib/src/utils/constants/strings/routes.dart').writeAsStringSync('''
 
 class Routes {
   static String home = '/';
@@ -119,7 +119,7 @@ class Routes {
 
 ''');
 
-  File('lib/src/utils/constants/routes.dart').writeAsStringSync('''
+  File('lib/src/utils/constants/strings/assets.dart').writeAsStringSync('''
 
 class Assets {
   
