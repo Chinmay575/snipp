@@ -38,11 +38,19 @@ import 'package:flutter/material.dart';
 
 import '../data/models/app_route.dart';
 import '../presentation/error/views/error_page.dart';
+import '../presentation/home/views/home_page.dart';
+import '../utils/constants/routes.dart';
+
 
 class AppRouter {
   static init() async {}
 
-  static List<AppRoute> _routes() => [];
+  static List<AppRoute> _routes() => [
+     AppRoute(
+          name: Routes.home,
+          view: HomePage(),
+        ),
+  ];
 
   static List allBlocProviders() => [];
 
@@ -134,8 +142,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'config/router.dart';
-import 'utils/constants/strings/routes.dart';
+import 'src/config/router.dart';
+import 'src/utils/constants/routes.dart';
 
 void main() async {
   await AppRouter.init();
