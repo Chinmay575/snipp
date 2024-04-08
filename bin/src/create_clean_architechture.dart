@@ -39,7 +39,7 @@ import 'package:flutter/material.dart';
 import '../data/models/app_route.dart';
 import '../presentation/error/views/error_page.dart';
 import '../presentation/home/views/home_page.dart';
-import '../utils/constants/routes.dart';
+import '../utils/constants/strings/routes.dart';
 
 
 class AppRouter {
@@ -143,7 +143,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'src/config/router.dart';
-import 'src/utils/constants/routes.dart';
+import 'src/utils/constants/strings/routes.dart';
 
 void main() async {
   await AppRouter.init();
